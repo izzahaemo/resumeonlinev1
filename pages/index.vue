@@ -5,7 +5,7 @@
       id="sideNav"
     >
       <a class="navbar-brand js-scroll-trigger" href="#page-top">
-        <span class="d-block d-lg-none">Resume Iván</span>
+        <span class="d-block d-lg-none">Resume Izzah</span>
         <span class="d-none d-lg-block">
           <img
             class="img-fluid img-profile rounded-circle mx-auto mb-2"
@@ -32,7 +32,7 @@
               class="nav-link js-scroll-trigger"
               @click="jumpTo('#about')"
               href="#"
-              >{{ $t('links.about') }}</a
+              >{{ $t("links.about") }}</a
             >
           </li>
           <li class="nav-item">
@@ -40,7 +40,7 @@
               class="nav-link js-scroll-trigger"
               @click="jumpTo('#education')"
               href="#"
-              >{{ $t('links.education') }}</a
+              >{{ $t("links.education") }}</a
             >
           </li>
           <li class="nav-item">
@@ -48,7 +48,7 @@
               class="nav-link js-scroll-trigger"
               @click="jumpTo('#experience')"
               href="#"
-              >{{ $t('links.experience') }}</a
+              >{{ $t("links.experience") }}</a
             >
           </li>
           <li class="nav-item">
@@ -56,7 +56,7 @@
               class="nav-link js-scroll-trigger"
               @click="jumpTo('#skills')"
               href="#"
-              >{{ $t('links.skills') }}</a
+              >{{ $t("links.skills") }}</a
             >
           </li>
           <li class="nav-item">
@@ -64,7 +64,7 @@
               class="nav-link js-scroll-trigger"
               @click="jumpTo('#interests')"
               href="#"
-              >{{ $t('links.interests') }}</a
+              >{{ $t("links.interests") }}</a
             >
           </li>
           <li class="nav-item">
@@ -72,21 +72,32 @@
               class="nav-link js-scroll-trigger"
               @click="jumpTo('#projects')"
               href="#"
-              >{{ $t('links.projects') }}</a
+              >{{ $t("links.projects") }}</a
             >
           </li>
           <li class="nav-item">
-            <div style="position:fixed; bottom:10px; left:10px; z-index:1000;">
+            <a
+              class="nav-link js-scroll-trigger"
+              href="https://drive.google.com/file/d/1fqZWoDF8qzn1PJ6zhmPbM0ZR5kH6mlcE/view?usp=sharing"
+              >Download CV Offline</a
+            >
+          </li>
+          <li class="nav-item">
+            <div
+              style="position: fixed; bottom: 10px; left: 10px; z-index: 1000"
+            >
               <DarkModeBtn />
             </div>
           </li>
           <li class="nav-item">
-            <div style="position:fixed; bottom:10px; right: 10px;z-index:1000;">
+            <div
+              style="position: fixed; bottom: 10px; right: 10px; z-index: 1000"
+            >
               <nuxt-link class="btn btn-light" :to="switchLocalePath('en')"
-                >EN</nuxt-link
+                >ID</nuxt-link
               >
               <nuxt-link class="btn btn-light" :to="switchLocalePath('es')"
-                >ES</nuxt-link
+                >EN</nuxt-link
               >
             </div>
           </li>
@@ -108,18 +119,18 @@ import jump from "jump.js";
 export default {
   components: {
     Resume,
-    DarkModeBtn
+    DarkModeBtn,
   },
   head() {
     return {
-      title: "Iván Greve"
+      title: "Izzah Aeman",
     };
   },
   methods: {
     jumpTo(element) {
       jump(element);
-    }
-  }
+    },
+  },
 };
 </script>
 

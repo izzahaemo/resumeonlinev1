@@ -1,142 +1,128 @@
 {
   "links": {
-    "about": "Sobre mi",
-    "education": "Educación",
-    "experience": "Experiencia",
-    "skills": "Habilidades",
-    "interests": "Intereses",
-    "projects": "Proyectos"
+    "about": "About",
+    "education": "Education",
+    "experience": "Certificate",
+    "skills": "Skills",
+    "interests": "Interests",
+    "projects": "Projects"
   },
   "personalInfo": {
-    "name": "Iván",
-    "lastName": "Greve",
+    "name": "Muhammad Izzah",
+    "lastName": "Aeman",
     "subHeadingText": [
       "Software Enginneer",
       "Full Stack Developer",
-      "Amante del Codigo!"
+      "Code enthusiast!"
     ],
-    "city": "Buenos Aires, Argentina",
-    "phoneNumber": "+54 - 6766-9851",
-    "email": "ivangreve@gmail.com",
+    "city": "Sukoharjo, East Java",
+    "phoneNumber": "+62 - 8125 - 2632 - 749",
+    "email": "izzah.aemo@gmail.com",
     "linkedin": "https://www.linkedin.com/in/ivan-greve/",
-    "github": "https://github.com/ivangreve/",
-    "myDescription": "Desarrollador web apasionado, desarrollando aplicaciones útiles siempre utilizando las últimas tecnologías!"
+    "github": "https://github.com/izzahaemo/",
+    "myDescription": "Hello, I'm Izzah. I am a fresh graduate from a university with a GPA of 3.46 as a bachelor's degree in Computer Engineering. I am involved in various things in the computer field, especially software. With a great will, helping to be responsible with my work, and quick to adapt, I can reach the company's goals."
   },
   "educationDegrees": {
-    "title": "Educación 📕",
+    "title": "Education 📕",
     "degrees": [
       {
-        "collage": "Universidad de La Matanza",
-        "name": "Ingeniero en Informática",
-        "itemList": ["Ciencias de la Computación"],
-        "startEndDate": "Marzo 2013 - Diciembre 2018"
+        "collage": "Pengadilan Agama Karawang",
+        "name": "Apprenticeship",
+        "itemList": [
+          "Create an application that helps the office in correspondence at the office.",
+          "Gain work environment experience."
+        ],
+        "startEndDate": "2 Jun 2020 - 17 Jul 2020"
       },
       {
-        "collage": "Universidad de La Matanza",
-        "name": "Técnico universitario en Desarrollo de Software",
-        "itemList": ["Ciencias de la Computación"],
-        "startEndDate": "Marzo 2013 - Diciembre 2016"
-      },
-      {
-        "collage": "Instituto Madero",
-        "name": "Técnico en electrónica - Telecomunicaciones",
-        "itemList": ["Electrónica"],
-        "startEndDate": "Marzo 2007 - Diciembre 2012"
+        "collage": "Telkom University",
+        "name": "S1 Computer Engineering",
+        "itemList": [
+          "Graduated with a 3.46 GPA.",
+          "S1 Computer Engineering: Focus on software development."
+        ],
+        "startEndDate": "Aug 2017 - Aug 2021"
       }
     ]
   },
   "workExperiences": {
-    "title": "Experiencia Laboral 🔨",
+    "title": "Certificate",
     "works": [
       {
-        "position": "Ingeniero en Informática / Desarrollador FullStack",
-        "companie": "Axum - Soluciones Inteligentes",
-        "responsabilities": [
-          "Responsable de diseñar, codificar y mantener grupos de aplicaciones usadas en el mundo del retail por empresas multinacionales como Pepsico, Unilever, Quilmes, etc.",
-          "Lider del equipo web, estoy a cargo de la toma de decisiones técnicas y acerca de como el equipo va a trabajar en los diferentes proyectos.",
-          "Desarrollador Backend: .NET Core | .NET Framework | NodeJs | MSSQL | PostgreSQL | MongoDB.",
-          "Desarrollador Frontend: VueJs | ReactJs | Javascript | JQuery.",
-          "Aplicaciones de Escritorio: .NET Windows Form Applications."
-        ],
-        "startEndDate": "Noviembre 2017 - Presente"
+        "position": "Machine Learning",
+        "companie": "AI Indonesia",
+        "responsabilities": [],
+        "startEndDate": "2021"
       },
       {
-        "position": "Administrador Técnico",
-        "companie": "Metalurgica Vezeta",
-        "responsabilities": [
-          "Responsable del diseño y mantenimiento del ecommerce.",
-          "Diseño Gráfico (Adobe Photoshop and Adobe Illustrator).",
-          "Soporte Técnico.",
-          "Mejora de los procesos de negocio."
-        ],
-        "startEndDate": "Marzo 2014 - Octubre 2017"
+        "position": "Mastered Vue.js Web Frontend Development",
+        "companie": "Sanbercode",
+        "responsabilities": [],
+        "startEndDate": "2021"
       }
     ]
   },
   "skills": {
-    "title": "Habilidades 🎯",
-    "iconsTitle": "Lenguajes de Programación & Herramientas",
+    "title": "Skills 🎯",
+    "iconsTitle": "Programming Languages & Tools",
     "devIcons": [
-      "devicon-csharp-plain",
+      "devicon-php-plain",
       "devicon-javascript-plain",
+      "devicon-mysql-plain",
+      "devicon-visualstudio-plain",
       "devicon-html5-plain-wordmark",
+      "devicon-python-plain",
+      "devicon-go-original-wordmark",
+      "devicon-csharp-plain",
       "devicon-css3-plain-wordmark",
       "devicon-git-plain",
-      "devicon-nodejs-plain",
       "devicon-bootstrap-plain",
       "devicon-github-original",
-      "devicon-bitbucket-original-wordmark",
-      "devicon-dot-net-original-wordmark",
-      "devicon-jquery-plain-wordmark",
-      "devicon-linux-plain",
-      "devicon-windows8-original",
+      "devicon-codeigniter-plain",
       "devicon-illustrator-plain",
       "devicon-photoshop-plain",
-      "devicon-react-original",
-      "devicon-visualstudio-plain",
-      "devicon-dot-net-plain",
-      "devicon-vuejs-plain",
-      "devicon-postgresql-plain"
+      "devicon-premierepro-plain",
+      "devicon-vuejs-plain"
     ],
     "workflow": "Workflow",
     "itemList": [
-      "Diseño Responsive & UX",
+      "Waterfall",
+      "Responsive Design & UX",
       "Cross Browser Testing & Debugging",
-      "Contrucción de REST API",
-      "Desarrollo Ágil & Scrum",
-      "Trabajo en equipo",
-      "Patrones de diseño"
+      "REST API building",
+      "Team working",
+      "Design Patterns"
     ]
   },
   "interests": {
     "title": "Hobbies 😄",
-    "firstBlock": "Además de ser desarrollador web, disfruto la gran parte de mi tiempo escuchando y tocando música. Me encanta cantar y tocar el piano en mis ratos libres!. 🎹🎵",
-    "secondBlock": "También le dedico una gran parte de mi tiempo libre a explorar las última tecnologias y avances en el mundo del backend/frontend, y programo en mis proyectos personales! 🙌👨‍💻"
+    "firstBlock": "I enjoy most of my time listening and playing music. I love playing DJ and singing in my spare time!. 🎵",
+    "secondBlock": "I also have a hobby of playing games, the world of photography, and also Traveling. "
   },
   "projects": {
-    "title": "Proyectos Personales 🦾🧠",
+    "title": "My Projects 🦾🧠",
     "projectsInfo": [
       {
-        "name": "Kelawar",
-        "description": "Kelawar es un proyecto Big Data + IoT. El cual mediante mecanismos de recolección masiva de datos, brindamos información útil acerca del comportamiento de los clientes para mejorar la toma de decisiones.",
-        "image": "/images/kelawar.jpg",
-        "siteUrl": "https://kelawar.com/"
+        "name": "SISUKA",
+        "description": "Sisuka is a correspondence data application that is used at the Karawang Religious Court",
+        "image": "/images/sisuka.jpg",
+        "siteUrl": "https://sisuka.pa-karawang.go.id/"
       },
       {
-        "name": "Docuisy",
-        "description": "Docuisy es un creador de Wikis basadas en archivos .md",
-        "image": "/images/docuisy.png",
-        "siteUrl": "https://github.com/ivangreve/docuisy"
+        "name": "Event Management",
+        "description": "An application that can help a committee in making the event",
+        "image": "/images/eventmanagement.jpg",
+        "siteUrl": "https://github.com/izzahaemo/eventmanagement"
       },
       {
-        "name": "Better Drive",
-        "description": "Better Drive es una herramienta gratuita para analizar su cuenta de Google Drive. Google Drive es un poderoso servicio de almacenamiento y sincronización de archivos, pero a veces usted puede sentir que pierde el control de estos. Teniendo en cuenta las preocupaciones de privacidad que tienen muchos usuarios, creamos esta gran herramienta para ayudarlo a organizar, limpiar y aprovechar el uso de su Google Drive.",
-        "image": "/images/better-drive.png",
-        "siteUrl": "https://betterdrive.app/"
+        "name": "Vue App",
+        "description": "My first Vue app using the API",
+        "image": "/images/vueone.jpg",
+        "siteUrl": "https://tubeskelomok1batch27vue.netlify.app/"
       },
       {
-        "name": "Resume Nuxt Template",
-        "description": "Simple y customizable template hecho con Nuxt y con soporte multilenguaje (i18n)",
+        "name": "Resume Ini",
+        "description": "My first resume website",
         "image": "/images/resumenuxt.jpg",
         "siteUrl": "https://github.com/ivangreve/nuxt-resume"
       }

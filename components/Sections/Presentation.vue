@@ -1,8 +1,8 @@
 <template>
   <div class="my-auto">
     <h1 class="mb-0">
-      {{ $t('personalInfo.name') }}
-      <span class="text-primary">{{ $t('personalInfo.lastName') }}</span>
+      {{ $t("personalInfo.name") }}
+      <span class="text-primary">{{ $t("personalInfo.lastName") }}</span>
     </h1>
 
     <h3 class="mb-4">
@@ -22,30 +22,46 @@
     </h3>
 
     <div class="subheading mb-5">
-      {{ $t('personalInfo.city') }} · {{ $t('personalInfo.phoneNumber') }} ·
-      <a href="mailto:name@email.com">{{ $t('personalInfo.email') }}</a>
+      {{ $t("personalInfo.city") }} · {{ $t("personalInfo.phoneNumber") }} ·
+      <a href="mailto:name@email.com">{{ $t("personalInfo.email") }}</a>
     </div>
     <p class="mb-5">
-      {{ $t('personalInfo.myDescription') }}
+      {{ $t("personalInfo.myDescription") }}
     </p>
     <ul class="list-inline list-social-icons mb-0">
-      <!-- <li class="list-inline-item">
-        <a href="#">
+      <li class="list-inline-item">
+        <a href="https://api.whatsapp.com/send?phone=6281252632749">
           <span class="fa-stack fa-lg">
             <i class="fas fa-circle fa-stack-2x"></i>
-            <i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i>
+            <i class="fab fa-whatsapp fa-stack-1x fa-inverse"></i>
           </span>
         </a>
-      </li> -->
-
+      </li>
       <li class="list-inline-item">
+        <a href="https://www.instagram.com/izzahaemo">
+          <span class="fa-stack fa-lg">
+            <i class="fas fa-circle fa-stack-2x"></i>
+            <i class="fab fa-instagram fa-stack-1x fa-inverse"></i>
+          </span>
+        </a>
+      </li>
+      <li class="list-inline-item">
+        <a href="https://www.youtube.com/channel/UC6tlMR8XgIV94MzDmBR3fng">
+          <span class="fa-stack fa-lg">
+            <i class="fas fa-circle fa-stack-2x"></i>
+            <i class="fab fa-youtube fa-stack-1x fa-inverse"></i>
+          </span>
+        </a>
+      </li>
+
+      <!-- <li class="list-inline-item">
         <a target="blank" :href="$t('personalInfo.linkedin')">
           <span class="fa-stack fa-lg">
             <i class="fas fa-circle fa-stack-2x"></i>
             <i class="fab fa-linkedin-in fa-stack-1x fa-inverse"></i>
           </span>
         </a>
-      </li>
+      </li> -->
       <li class="list-inline-item">
         <a target="blank" :href="$t('personalInfo.github')">
           <span class="fa-stack fa-lg">
@@ -62,6 +78,6 @@
 export default {
   data() {
     return {};
-  }
+  },
 };
 </script>
