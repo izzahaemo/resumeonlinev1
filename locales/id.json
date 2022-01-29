@@ -1,0 +1,137 @@
+{
+    "links": {
+        "about": "Tentang",
+        "education": "Riwayat Pendidikan",
+        "experience": "Sertifikat",
+        "skills": "Skills",
+        "interests": "Interests",
+        "projects": "Projects"
+    },
+    "personalInfo": {
+        "name": "Muhammad Izzah",
+        "lastName": "Aeman",
+        "subHeadingText": [
+            "Software Enginneer",
+            "Full Stack Developer",
+            "Code enthusiast!"
+        ],
+        "city": "Sukoharjo, Jawa Tengah",
+        "phoneNumber": "+62 - 8125 - 2632 - 749",
+        "email": "izzah.aemo@gmail.com",
+        "linkedin": "https://www.linkedin.com/in/ivan-greve/",
+        "github": "https://github.com/izzahaemo/",
+        "myDescription": "Halo, Saya Izzah. Saya fresh graduate perguruan tinggi dengan IPK 3,46 sebagai sarjana S1 Teknik Komputer. Saya menggeluti berbagai hal di bidang komputer, khususnya Software. Dengan kemauan yang besar, bertanggung jawab dengan pekerjaan saya, dan cepat dalam beradaptasi, saya bisa membantu perusahaan mencapai tujuan."
+    },
+    "educationDegrees": {
+        "title": "Riwayat Pendidikan 📕",
+        "degrees": [
+            {
+                "collage": "Pengadilan Agama Karawang",
+                "name": "Magang",
+                "itemList": [
+                    "Membuat sebuah aplikasi yang membantu kantor dalam persuratan di kantor.",
+                    "Mendapatkan pengalaman lingkungan kerja."
+                ],
+                "startEndDate": "2 Jun 2020 - 17 Jul 2020"
+            },
+            {
+                "collage": "Telkom University",
+                "name": "S1 Teknik Komputer",
+                "itemList": [
+                    "Lulus dengan IPK 3.46.",
+                    "S1 Teknik Komputer: Berfokus pada software development."
+                ],
+                "startEndDate": "Agu 2017 - Agu 2021"
+            }
+        ]
+    },
+    "workExperiences": {
+        "title": "Sertifikat",
+        "works": [
+            {
+                "position": "Machine Learning",
+                "companie": "AI Indonesia",
+                "responsabilities": [],
+                "startEndDate": "2021"
+            },
+            {
+                "position": "Mastered Vue.js Web Frontend Development",
+                "companie": "Sanbercode",
+                "responsabilities": [],
+                "startEndDate": "2021"
+            }
+        ]
+    },
+    "skills": {
+        "title": "Skills 🎯",
+        "iconsTitle": "Programming Languages & Tools",
+        "devIcons": [
+            "devicon-php-plain",
+            "devicon-javascript-plain",
+            "devicon-mysql-plain",
+            "devicon-visualstudio-plain",
+            "devicon-html5-plain-wordmark",
+            "devicon-python-plain",
+            "devicon-go-original-wordmark",
+            "devicon-csharp-plain",
+            "devicon-css3-plain-wordmark",
+            "devicon-git-plain",
+            "devicon-bootstrap-plain",
+            "devicon-github-original",
+            "devicon-codeigniter-plain",
+            "devicon-illustrator-plain",
+            "devicon-photoshop-plain",
+            "devicon-premierepro-plain",
+            "devicon-vuejs-plain"
+        ],
+        "workflow": "Workflow",
+        "itemList": [
+            "Waterfall",
+            "Responsive Design & UX",
+            "Cross Browser Testing & Debugging",
+            "Restful API building",
+            "Team working",
+            "Design Patterns"
+        ]
+    },
+    "interests": {
+        "title": "Hobbies 😄",
+        "firstBlock": "Saya menikmati sebagian besar waktu saya mendengarkan dan bermain musik. Saya suka bermain DJ dan bernyanyi di waktu luang saya!. 🎵",
+        "secondBlock": "Saya juga mempunyai Hobby bermain game, dunia fotografi, dan juga Travelling"
+    },
+    "projects": {
+        "title": "My Projects 🦾🧠",
+        "projectsInfo": [
+            {
+                "name": "Review Phone Restful API",
+                "description": "Proyek ini membuat API tentang 'Review Phone' menggunakan golang",
+                "image": "/images/ReviewPhoneApp.jpg",
+                "siteUrl": "https://reviewphoneapi.project-izzah.my.id/swagger/index.html#/"
+            },
+            {
+                "name": "SISUKA",
+                "description": "Sisuka adalah sebuah aplikasi data persuratan yang di gunakan di Pengadilan Agama Karawang",
+                "image": "/images/sisuka.jpg",
+                "siteUrl": "https://sisuka.pa-karawang.go.id/"
+            },
+            {
+                "name": "Event Management",
+                "description": "Sebuah aplikasi yang dapat membantu seorang panitia dalam membuat eventnya",
+                "image": "/images/eventmanagement.jpg",
+                "siteUrl": "https://github.com/izzahaemo/eventmanagement"
+            },
+            {
+                "name": "Vue App",
+                "description": "Aplikasi Vue pertama saya dengan menggunakan API",
+                "image": "/images/vueone.jpg",
+                "siteUrl": "https://tubeskelomok1batch27vue.netlify.app/"
+            },
+            {
+                "name": "Resume Ini",
+                "description": "Sebuah website resume pertama saya",
+                "image": "/images/resumenuxt.jpg",
+                "siteUrl": "https://github.com/ivangreve/nuxt-resume"
+            }
+        ]
+    }
+}

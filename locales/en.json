@@ -1,8 +1,8 @@
 {
   "links": {
-    "about": "Tentang",
-    "education": "Riwayat Pendidikan",
-    "experience": "Sertifikat",
+    "about": "About",
+    "education": "Education",
+    "experience": "Certificate",
     "skills": "Skills",
     "interests": "Interests",
     "projects": "Projects"
@@ -15,38 +15,38 @@
       "Full Stack Developer",
       "Code enthusiast!"
     ],
-    "city": "Sukoharjo, Jawa Tengah",
+    "city": "Sukoharjo, East Java",
     "phoneNumber": "+62 - 8125 - 2632 - 749",
     "email": "izzah.aemo@gmail.com",
     "linkedin": "https://www.linkedin.com/in/ivan-greve/",
     "github": "https://github.com/izzahaemo/",
-    "myDescription": "Halo, Saya Izzah. Saya fresh graduate perguruan tinggi dengan IPK 3,46 sebagai sarjana S1 Teknik Komputer. Saya menggeluti berbagai hal di bidang komputer, khususnya Software. Dengan kemauan yang besar, bertanggung jawab dengan pekerjaan saya, dan cepat dalam beradaptasi, saya bisa membantu perusahaan mencapai tujuan."
+    "myDescription": "Hello, I'm Izzah. I am a fresh graduate from a university with a GPA of 3.46 as a bachelor's degree in Computer Engineering. I am involved in various things in the computer field, especially software. With a great will, helping to be responsible with my work, and quick to adapt, I can reach the company's goals."
   },
   "educationDegrees": {
-    "title": "Riwayat Pendidikan 📕",
+    "title": "Education 📕",
     "degrees": [
       {
         "collage": "Pengadilan Agama Karawang",
-        "name": "Magang",
+        "name": "Apprenticeship",
         "itemList": [
-          "Membuat sebuah aplikasi yang membantu kantor dalam persuratan di kantor.",
-          "Mendapatkan pengalaman lingkungan kerja."
+          "Create an application that helps the office in correspondence at the office.",
+          "Gain work environment experience."
         ],
         "startEndDate": "2 Jun 2020 - 17 Jul 2020"
       },
       {
         "collage": "Telkom University",
-        "name": "S1 Teknik Komputer",
+        "name": "S1 Computer Engineering",
         "itemList": [
-          "Lulus dengan IPK 3.46.",
-          "S1 Teknik Komputer: Berfokus pada software development."
+          "Graduated with a 3.46 GPA.",
+          "S1 Computer Engineering: Focus on software development."
         ],
-        "startEndDate": "Agu 2017 - Agu 2021"
+        "startEndDate": "Aug 2017 - Aug 2021"
       }
     ]
   },
   "workExperiences": {
-    "title": "Sertifikat",
+    "title": "Certificate",
     "works": [
       {
         "position": "Machine Learning",
@@ -89,40 +89,46 @@
       "Waterfall",
       "Responsive Design & UX",
       "Cross Browser Testing & Debugging",
-      "REST API building",
+      "Restful API building",
       "Team working",
       "Design Patterns"
     ]
   },
   "interests": {
     "title": "Hobbies 😄",
-    "firstBlock": "Saya menikmati sebagian besar waktu saya mendengarkan dan bermain musik. Saya suka bermain DJ dan bernyanyi di waktu luang saya!. 🎵",
-    "secondBlock": "Saya juga mempunyai Hobby bermain game, dunia fotografi, dan juga Travelling"
+    "firstBlock": "I enjoy most of my time listening and playing music. I love playing DJ and singing in my spare time!. 🎵",
+    "secondBlock": "I also have a hobby of playing games, the world of photography, and also Traveling. "
   },
   "projects": {
     "title": "My Projects 🦾🧠",
     "projectsInfo": [
       {
+        "name": "Review Phone Restful API",
+        "description": "This project is creating a restful API 'Review Phone' using golang",
+        "image": "/images/ReviewPhoneApp.jpg",
+        "siteUrl": "https://reviewphoneapi.project-izzah.my.id/swagger/index.html#/"
+      },
+      {
         "name": "SISUKA",
-        "description": "Sisuka adalah sebuah aplikasi data persuratan yang di gunakan di Pengadilan Agama Karawang",
+        "description": "Sisuka is a correspondence data application that is used at the Karawang Religious Court",
         "image": "/images/sisuka.jpg",
         "siteUrl": "https://sisuka.pa-karawang.go.id/"
       },
       {
         "name": "Event Management",
-        "description": "Sebuah aplikasi yang dapat membantu seorang panitia dalam membuat eventnya",
+        "description": "An application that can help a committee in making the event",
         "image": "/images/eventmanagement.jpg",
         "siteUrl": "https://github.com/izzahaemo/eventmanagement"
       },
       {
         "name": "Vue App",
-        "description": "Aplikasi Vue pertama saya dengan menggunakan API",
+        "description": "My first Vue app using the API",
         "image": "/images/vueone.jpg",
         "siteUrl": "https://tubeskelomok1batch27vue.netlify.app/"
       },
       {
         "name": "Resume Ini",
-        "description": "Sebuah website resume pertama saya",
+        "description": "My first resume website",
         "image": "/images/resumenuxt.jpg",
         "siteUrl": "https://github.com/ivangreve/nuxt-resume"
       }

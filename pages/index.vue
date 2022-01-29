@@ -78,7 +78,7 @@
           <li class="nav-item">
             <a
               class="nav-link js-scroll-trigger"
-              href="https://drive.google.com/file/d/1fqZWoDF8qzn1PJ6zhmPbM0ZR5kH6mlcE/view?usp=sharing"
+              href="https://drive.google.com/file/d/1wTHi4MpA-9vmSrHmoUiWCybjPeorPKB5/view?usp=sharing"
               >Download CV Offline</a
             >
           </li>
@@ -94,10 +94,10 @@
               style="position: fixed; bottom: 10px; right: 10px; z-index: 1000"
             >
               <nuxt-link class="btn btn-light" :to="switchLocalePath('en')"
-                >ID</nuxt-link
-              >
-              <nuxt-link class="btn btn-light" :to="switchLocalePath('es')"
                 >EN</nuxt-link
+              >
+              <nuxt-link class="btn btn-light" :to="switchLocalePath('id')"
+                >ID</nuxt-link
               >
             </div>
           </li>
