@@ -49,16 +49,22 @@
     "title": "Sertifikat",
     "works": [
       {
+        "position": "Mastered Vue.js Web Frontend Development",
+        "companie": "Sanbercode",
+        "responsabilities": [],
+        "startEndDate": "2021"
+      },
+      {
         "position": "Machine Learning",
         "companie": "AI Indonesia",
         "responsabilities": [],
         "startEndDate": "2021"
       },
       {
-        "position": "Mastered Vue.js Web Frontend Development",
+        "position": "Golang Backend Development",
         "companie": "Sanbercode",
         "responsabilities": [],
-        "startEndDate": "2021"
+        "startEndDate": "2022"
       }
     ]
   },
@@ -73,6 +79,7 @@
       "devicon-html5-plain-wordmark",
       "devicon-python-plain",
       "devicon-go-original-wordmark",
+      "devicon-go-plain",
       "devicon-csharp-plain",
       "devicon-css3-plain-wordmark",
       "devicon-git-plain",
