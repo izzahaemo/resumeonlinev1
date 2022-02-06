@@ -24,7 +24,7 @@ body {
   }
   
   h1 {
-    font-size: 6rem;
+    font-size: 5.5rem;
     line-height: 5.5rem;
   }
   
@@ -158,9 +158,9 @@ body {
 
   :root {
     --color: #868e96;
-    --color-primary: #478547;
-    --color-secondary: #3b833b;
-    --color-primary-hover: #276827;
+    --color-primary: #4165b9;
+    --color-secondary: #345bb7;
+    --color-primary-hover: #23479a;
     --color-text-primary: #343a40;
     --color-text-secondary: #e2e2e2; 
     --color-text-third: #343a40;

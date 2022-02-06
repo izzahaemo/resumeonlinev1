@@ -54,14 +54,14 @@
         </a>
       </li>
 
-      <!-- <li class="list-inline-item">
+      <li class="list-inline-item">
         <a target="blank" :href="$t('personalInfo.linkedin')">
           <span class="fa-stack fa-lg">
             <i class="fas fa-circle fa-stack-2x"></i>
             <i class="fab fa-linkedin-in fa-stack-1x fa-inverse"></i>
           </span>
         </a>
-      </li> -->
+      </li>
       <li class="list-inline-item">
         <a target="blank" :href="$t('personalInfo.github')">
           <span class="fa-stack fa-lg">

@@ -62,14 +62,6 @@
           <li class="nav-item">
             <a
               class="nav-link js-scroll-trigger"
-              @click="jumpTo('#interests')"
-              href="#"
-              >{{ $t("links.interests") }}</a
-            >
-          </li>
-          <li class="nav-item">
-            <a
-              class="nav-link js-scroll-trigger"
               @click="jumpTo('#projects')"
               href="#"
               >{{ $t("links.projects") }}</a
