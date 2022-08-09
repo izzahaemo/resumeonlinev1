@@ -20,7 +20,7 @@
     "email": "izzah.aemo@gmail.com",
     "linkedin": "https://www.linkedin.com/in/izzahaeman/",
     "github": "https://github.com/izzahaemo/",
-    "myDescription": "Hello, I'm Izzah. I am a fresh graduate from a university with a GPA of 3.46 as a bachelor's degree in Computer Engineering. I am involved in various things in the computer field, especially software. With a great will, helping to be responsible with my work, and quick to adapt, I can reach the company's goals."
+    "myDescription": "I'm Software Engginer on Icube by Sirclo"
   },
   "educationDegrees": {
     "title": "Education 📕",
@@ -110,10 +110,16 @@
     "title": "My Projects 🦾🧠",
     "projectsInfo": [
       {
+        "name": "Danadyaksa Nusantara Web Profile",
+        "description": "A Dynamic Web project, which has Backoffice to change data",
+        "image": "/images/danadyaksa.jpg",
+        "siteUrl": "https://danadyaksanusantara.com/"
+      },
+      {
         "name": "Review Phone Restful API",
         "description": "This project is creating a restful API 'Review Phone' using golang",
         "image": "/images/ReviewPhoneApp.jpg",
-        "siteUrl": "https://reviewphoneapi.project-izzah.my.id/swagger/index.html#/"
+        "siteUrl": "https://github.com/izzahaemo/Review-Phone-API-Public"
       },
       {
         "name": "SISUKA",
@@ -137,7 +143,7 @@
         "name": "Resume Ini",
         "description": "My first resume website",
         "image": "/images/resumenuxt.jpg",
-        "siteUrl": "https://github.com/ivangreve/nuxt-resume"
+        "siteUrl": "https://izzahaemo.my.id"
       }
     ]
   }

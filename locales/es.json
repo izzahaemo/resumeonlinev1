@@ -20,7 +20,7 @@
     "email": "izzah.aemo@gmail.com",
     "linkedin": "https://www.linkedin.com/in/izzahaeman/",
     "github": "https://github.com/izzahaemo/",
-    "myDescription": "Halo, Saya Izzah. Saya fresh graduate perguruan tinggi dengan IPK 3,46 sebagai sarjana S1 Teknik Komputer. Saya menggeluti berbagai hal di bidang komputer, khususnya Software. Dengan kemauan yang besar, bertanggung jawab dengan pekerjaan saya, dan cepat dalam beradaptasi, saya bisa membantu perusahaan mencapai tujuan."
+    "myDescription": "I'm Software Engginer on Icube by Sirclo"
   },
   "educationDegrees": {
     "title": "Riwayat Pendidikan 📕",
@@ -110,10 +110,16 @@
     "title": "My Projects 🦾🧠",
     "projectsInfo": [
       {
+        "name": "Danadyaksa Nusantara Web Profile",
+        "description": "Sebuah project Web Dinamis, yang memiliki Backoffice untuk mengubah data",
+        "image": "/images/danadyaksa.jpg",
+        "siteUrl": "https://danadyaksanusantara.com/"
+      },
+      {
         "name": "Review Phone Restful API",
         "description": "Proyek ini membuat API tentang 'Review Phone' menggunakan golang",
         "image": "/images/ReviewPhoneApp.jpg",
-        "siteUrl": "https://reviewphoneapi.project-izzah.my.id/swagger/index.html#/"
+        "siteUrl": "https://github.com/izzahaemo/Review-Phone-API-Public"
       },
       {
         "name": "SISUKA",
@@ -137,7 +143,7 @@
         "name": "Resume Ini",
         "description": "Sebuah website resume pertama saya",
         "image": "/images/resumenuxt.jpg",
-        "siteUrl": "https://github.com/ivangreve/nuxt-resume"
+        "siteUrl": "https://izzahaemo.my.id"
       }
     ]
   }
