@@ -1,7 +1,7 @@
 {
     "links": {
         "about": "Tentang",
-        "education": "Riwayat Pendidikan",
+        "education": "My Journey",
         "experience": "Sertifikat",
         "skills": "Skills",
         "interests": "Interests",
@@ -20,11 +20,23 @@
         "email": "izzah.aemo@gmail.com",
         "linkedin": "https://www.linkedin.com/in/izzahaeman/",
         "github": "https://github.com/izzahaemo/",
-        "myDescription": "I'm Software Engginer on Icube by Sirclo"
+        "myDescription": "Hello there, I'm Software Engineer looking for an opportunity to work. Feel free to contact me"
     },
     "educationDegrees": {
-        "title": "Riwayat Pendidikan 📕",
+        "title": "My Journey 📕",
         "degrees": [
+            {
+                "collage": "Icube By Sirclo",
+                "name": "Full Time Junior Software Engginer",
+                "itemList": [
+                    "Mengembangkan dan memodifikasi Magento 2 e-commerce website menggunakan PHP dan XML.",
+                    "Membuat Sebuah module, API, command, basic HTML, override class, dan lain-lain di Magento 2.",
+                    "Mempelajari bagaimana cara kerja omnichannel marketplace dan system pergudangan.",
+                    "Membuat Testing, Tutorial, dan Dokumentasi Teknis untuk membantu stakeholders dan developers memahami tentang software development.",
+                    "Bekerja dengan lingkungan Agile product development"
+                ],
+                "startEndDate": "1 Maret 2022 - 1 Juni 2023"
+            },
             {
                 "collage": "Pengadilan Agama Karawang",
                 "name": "Magang",
@@ -109,6 +121,12 @@
     "projects": {
         "title": "My Projects 🦾🧠",
         "projectsInfo": [
+            {
+                "name": "Yayasan Pustaka Kelana Web Profile",
+                "description": "Sebuah project Web Dinamis, yang memiliki Backoffice untuk mengubah data",
+                "image": "/images/ypkk.jpg",
+                "siteUrl": "https://www.pustakakelana.or.id/"
+            },
             {
                 "name": "Danadyaksa Nusantara Web Profile",
                 "description": "Sebuah project Web Dinamis, yang memiliki Backoffice untuk mengubah data",

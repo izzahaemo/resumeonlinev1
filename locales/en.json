@@ -1,7 +1,7 @@
 {
   "links": {
     "about": "About",
-    "education": "Education",
+    "education": "My Journey",
     "experience": "Certificate",
     "skills": "Skills",
     "interests": "Interests",
@@ -20,11 +20,23 @@
     "email": "izzah.aemo@gmail.com",
     "linkedin": "https://www.linkedin.com/in/izzahaeman/",
     "github": "https://github.com/izzahaemo/",
-    "myDescription": "I'm Software Engginer on Icube by Sirclo"
+    "myDescription": "Hello there, I'm Software Engineer looking for an opportunity to work. Feel free to contact me"
   },
   "educationDegrees": {
-    "title": "Education 📕",
+    "title": "My Journey 📕",
     "degrees": [
+      {
+        "collage": "Icube By Sirclo",
+        "name": "Full Time Junior Software Engginer",
+        "itemList": [
+          "Build, Develop, and modify Magento 2 e-commerce website using PHP and XML.",
+          "Create a module, API, command, basic HTML, override class, and others on Magento 2.",
+          "Learn how the omnichannel marketplace and warehouse system work.",
+          "Create Testing, Tutorial, and Technical Documentation to help stakeholders and developers understand the software development.",
+          "Working with agile product development environment"
+        ],
+        "startEndDate": "1 March 2022 - 1 Jun 2023"
+      },
       {
         "collage": "Pengadilan Agama Karawang",
         "name": "Apprenticeship",
@@ -109,6 +121,12 @@
   "projects": {
     "title": "My Projects 🦾🧠",
     "projectsInfo": [
+      {
+        "name": "Yayasan Pustaka Kelana Web Profile",
+        "description": "Sebuah project Web Dinamis, yang memiliki Backoffice untuk mengubah data",
+        "image": "/images/ypkk.jpg",
+        "siteUrl": "https://www.pustakakelana.or.id/"
+      },
       {
         "name": "Danadyaksa Nusantara Web Profile",
         "description": "A Dynamic Web project, which has Backoffice to change data",
