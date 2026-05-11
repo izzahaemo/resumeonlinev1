@@ -26,6 +26,7 @@ jobs:
       - name: Save Docker Image
         run: |
           docker save resume-app:latest | gzip > resume-app.tar.gz
+
       - name: Prepare VPS Folder
         uses: appleboy/ssh-action@v0.1.10
         with:

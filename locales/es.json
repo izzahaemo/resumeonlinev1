@@ -26,6 +26,16 @@
     "title": "My Journey 📕",
     "degrees": [
       {
+        "collage": "Badan Kepegawaian Negara",
+        "name": "Software Engginer (Tenaga Ahli)",
+        "itemList": [
+          "Berhasil mengembangkan aplikasi web menggunakan Express TypeScript dari awal, termasuk perancangan database dan alur kerja aplikasi. Diskusi tim yang mendalam menjadi dasar dalam merancang solusi yang optimal.",
+          "Aktif terlibat dalam pengembangan dan pemeliharaan fitur baru pada proyek aplikasi nasional menggunakan PHP dan Laravel untuk Backend, serta JavaScript dan VueJS untuk Frontend. Selalu memastikan setiap pengembangan fitur baru sesuai dengan regulasi yang berlaku dan memenuhi harapan berbagai stakeholder serta pengguna akhir.",
+          "Berkolaborasi dengan instansi lain untuk melakukan sinkronisasi data dengan membuat API atau fitur yang mampu menghubungkan aplikasi antarinstansi."
+        ],
+        "startEndDate": "1 Agustus 2023 - 1 Agustus 2024"
+      },
+      {
         "collage": "Icube By Sirclo",
         "name": "Full Time Junior Software Engginer",
         "itemList": [

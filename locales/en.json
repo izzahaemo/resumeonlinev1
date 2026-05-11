@@ -26,6 +26,16 @@
     "title": "My Journey 📕",
     "degrees": [
       {
+        "collage": "Badan Kepegawaian Negara",
+        "name": "Software Engginer (Tenaga Ahli)",
+        "itemList": [
+          "Successfully developed web development using Express TypeScript from scratch, including database design, and application workflow. In-depth team discussions served as the foundation for designing optimal solutions.",
+          "Actively involved in developing and maintaining new features for the national application project using PHP, Laravel for Beckend, and JavaScript, VueJS for Frontend. Always ensure that every new feature development strictly adheres to applicable regulations and meets the expectations of various stakeholders and end-users.",
+          "Collaborated with other institutions to synchronize data by creating an API or feature that could connect applications across different institutions."
+        ],
+        "startEndDate": "1 August 2023 - 1 August 2024"
+      },
+      {
         "collage": "Icube By Sirclo",
         "name": "Full Time Junior Software Engginer",
         "itemList": [
