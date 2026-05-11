@@ -1,0 +1,68 @@
+name: Deploy Docker App
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    environment: SANBERLIFY
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v3
+
+      - name: Setup Node.js 14
+        uses: actions/setup-node@v3
+        with:
+          node-version: 14
+
+      - name: Build Docker Image
+        run: |
+          docker build -t resume-app:latest .
+
+      - name: Save Docker Image
+        run: |
+          docker save resume-app:latest | gzip > resume-app.tar.gz
+      - name: Prepare VPS Folder
+        uses: appleboy/ssh-action@v0.1.10
+        with:
+          host: ${{ secrets.REMOTE_SANBERLIFY_HOST }}
+          username: ${{ secrets.REMOTE_SANBERLIFY_USER }}
+          key: ${{ secrets.SSH_PRIVATE_KEY }}
+          script: |
+            mkdir -p /root/deploy
+
+      - name: Copy Docker Image
+        uses: appleboy/scp-action@v0.1.4
+        with:
+          host: ${{ secrets.REMOTE_SANBERLIFY_HOST }}
+          username: ${{ secrets.REMOTE_SANBERLIFY_USER }}
+          key: ${{ secrets.SSH_PRIVATE_KEY }}
+          port: ${{ secrets.REMOTE_SANBERLIFY_PORT || 22 }}
+          source: "resume-app.tar.gz,docker-compose.yml"
+          target: "/root/deploy"
+
+      - name: Deploy via SSH
+        uses: appleboy/ssh-action@v0.1.10
+        with:
+          host: ${{ secrets.REMOTE_SANBERLIFY_HOST }}
+          username: ${{ secrets.REMOTE_SANBERLIFY_USER }}
+          key: ${{ secrets.SSH_PRIVATE_KEY }}
+          port: ${{ secrets.REMOTE_SANBERLIFY_PORT || 22 }}
+          script: |
+            mkdir -p /root/deploy
+
+            cd /root/deploy
+
+            docker load < resume-app.tar.gz
+
+            docker compose down || true
+
+            docker compose up -d
+
+            docker image prune -f
+
+            docker ps

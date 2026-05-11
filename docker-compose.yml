@@ -1,0 +1,12 @@
+services:
+  resume-app:
+    image: resume-app:latest
+    container_name: resume-app
+
+    restart: unless-stopped
+
+    ports:
+      - "3000:80"
+
+    mem_limit: 256m
+    cpus: 0.50
