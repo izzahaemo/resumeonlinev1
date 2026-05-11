@@ -1,0 +1,57 @@
+name: Deploy to Server
+
+on:
+  push:
+    branches:
+      - master # Ganti dengan nama branch utama Anda (misal: master)
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v3
+
+      - name: Setup Node.js v14
+        uses: actions/setup-node@v3
+        with:
+          node-version: 14
+          cache: "npm"
+
+      - name: Install Dependencies
+        run: npm install
+
+      - name: Generate Static Files
+        run: npm run generate
+
+      - name: Clear target folder
+        uses: appleboy/ssh-action@v0.1.10
+        with:
+          host: ${{ secrets.REMOTE_SANBERLIFY_HOST }}
+          username: ${{ secrets.REMOTE_SANBERLIFY_USER }}
+          key: ${{ secrets.SSH_PRIVATE_KEY }}
+          port: ${{ secrets.REMOTE_SANBERLIFY_PORT || 22 }}
+          script: |
+            rm -rf /var/www/resume/*
+
+      - name: Copy files to server via SCP
+        uses: appleboy/scp-action@v0.1.4
+        with:
+          host: ${{ secrets.REMOTE_SANBERLIFY_HOST }}
+          username: ${{ secrets.REMOTE_SANBERLIFY_USER }}
+          key: ${{ secrets.SSH_PRIVATE_KEY }}
+          port: ${{ secrets.REMOTE_SANBERLIFY_PORT || 22 }}
+          source: "dist/*"
+          target: ${{ secrets.REMOTE_SANBERLIFY_TARGET }}
+          strip_components: 1 # Menghilangkan folder 'dist/' agar isinya langsung ke target
+
+      - name: Finalizing via SSH (Optional)
+        uses: appleboy/ssh-action@v0.1.10
+        with:
+          host: ${{ secrets.REMOTE_SANBERLIFY_HOST }}
+          username: ${{ secrets.REMOTE_SANBERLIFY_USER }}
+          key: ${{ secrets.SSH_PRIVATE_KEY }}
+          port: ${{ secrets.REMOTE_SANBERLIFY_PORT || 22 }}
+          script: |
+            echo "Deployment finished successfully!"
